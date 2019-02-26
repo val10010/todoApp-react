@@ -1,0 +1,16 @@
+import React from 'react';
+import Todo from './Todo';
+import './App.css';
+
+const  App = () => {
+  
+    return (
+      <div>
+      <div className="App">
+        <Todo/>
+      </div>
+      </div>
+    );
+  }
+
+export default App;
